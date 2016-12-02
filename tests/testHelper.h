@@ -6,7 +6,7 @@
 
 #include <fstream>
 
-#define GRADUATE
+//#define GRADUATE
 
 /**
  *  Given a test vector and a correct vector, this function will check if the
