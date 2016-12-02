@@ -36,9 +36,9 @@ Universe* Universe::instance(){
  */
 vector2 Universe::getForce(const Object &obj1, const Object &obj2){
     double numerator = G * obj1.getMass() * obj2.getMass();
-    double denominator = (obj2.getPosition() - obj1.getPosition()).normSq();
+    double denominator = (obj1.getPosition() - obj2.getPosition()).normSq();
     double operation = numerator/denominator;
-    vector2 direction = (obj2.getPosition() - obj1.getPosition()).normalize();
+    vector2 direction = (obj1.getPosition() - obj2.getPosition()).normalize();
     vector2 zero;
 
     if(obj2.getName() == obj1.getName())
