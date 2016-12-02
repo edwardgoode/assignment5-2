@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/vu-cs3251-f16/assignment5-2-edwardgoode.svg?token=Z2heZ8x4oLyA7zPWkNpC&branch=master)](https://travis-ci.com/vu-cs3251-f16/assignment5-2-edwardgoode)
+
 # CS 3251: Intermediate Software Design
 ## Programming Assignment 5-2
 
