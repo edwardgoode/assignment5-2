@@ -22,7 +22,7 @@ set(SOURCE_FILES
         tests/vectorTest.cpp
         tests/visitorTest.cpp
         tests/intertiaTest.cpp
-        tests/UMCTest.cpp)
+        tests/UMCTest.cpp src/Object.cpp src/Universe.cpp src/Visitor.cpp)
 # Make the project root directory the working directory when we run
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/bin)
 add_executable(Testing ${SOURCE_FILES})
